@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-    --primary-color: #435065;
+    --primary-color: #ffffff;
     --secondary-color: #E54024;
     --accent1-color: #1D2C48;
     --accent2-color: #972E25;
@@ -15,10 +15,10 @@ body {
     --paragraph-font:'___',lato;
 
 
-    --nav-background-color: #D18D83;
-    --nav-link-color: #D18D83;
-    --nav-hover-link-color: #D18D83;
-    --nav-hover-background-color: #D18D83;
+    --nav-background-color: #435065;
+    --nav-link-color: #E54024;
+    --nav-hover-link-color: #E54024;
+    --nav-hover-background-color: #4547a8;
 }
 
 h1, h2, h3, h4, h5, h6 {
