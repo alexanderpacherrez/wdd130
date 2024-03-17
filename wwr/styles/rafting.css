@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+header img {
+    float: left;
+    width: 100px;
+}
+
+
+* {
+    margin: 10;
+    padding: 550;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #300a0a;
+    --secondary-color: #06cb4e;
+    --accent1-color: #1D2C48;
+    --accent2-color: #972E25;
+
+    --heading-font: '___', lato;
+    --paragraph-font:'___',lato;
+
+
+    --nav-background-color: #435065;
+    --nav-link-color: #E54024;
+    --nav-hover-link-color: #E54024;
+    --nav-hover-background-color: #4547a8;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
