@@ -1,37 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: #e81b1b;
+    --primary-color:#972E25;
+    --secondary-color: #1D2C48;
+    --third-color: #435065;
+    --fourth-color: #2B2235;
 
+}
+
+header img {
+    width: 100px;
+}
+
+header a{
+    font-size: 18px;
+}
+
+header a:hover{
+    background-color: #939ddd;
+    
 }
 
 .hero {
     position: relative;
 }
 
+.hero img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
 
-.hero h1 {
+.hero h1{
+    font-size: 30px;
+    color: var(--secondary-color);
     position: absolute;
+    margin: 20px;
+    top: 10px;
+    right: 100px;
+    left: 100px;
+    text-align: center;
+    background-color: #d9cbe26b;
+    
 }
 
 .hero article {
     position: absolute;
+    top: 150px;
+    right: 100px;
+    left: 100px;
+    bottom: 170px;
+    background-color: #d9cbe26b;
 }
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    position: absolute;
-}
-
-article {
-    position: absolute;
-}
-
-article img {
+    
+.hero article img {
+    width: 400px;
     float: right;
+    top: 10px;
+}
+
+.hero article p {
+    font-size: 25px;
+    color: var(--secondary-color);padding: 10px;
+}
+
+section h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+section p {
+    font-size: 25px;
+    color: var(--fourth-color)
+}
+
+section img {
+    width: 1000px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer nav a img {
+    margin: 5px;
+    width: 40px;
 }
