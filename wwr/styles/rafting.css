@@ -8,6 +8,20 @@
 
 }
 
+.container {
+    display: flex;
+    
+}
+
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #2017c2;
+	max-width: 1000px;
+}
+
 header img {
     width: 100px;
 }
@@ -18,8 +32,10 @@ header a{
 
 header a:hover{
     background-color: #939ddd;
-    
 }
+
+
+
 
 .hero {
     position: relative;
@@ -27,10 +43,10 @@ header a:hover{
 
 .hero img {
     display: block;
-    position: relative;
     width: 100%;
     height: auto;
-    margin: 5px;
+    margin: 15px;
+
 }
 
 .hero h1{
@@ -48,6 +64,7 @@ header a:hover{
 
 .hero article {
     position: absolute;
+    margin: 5px;
     top: 150px;
     right: 100px;
     left: 100px;
