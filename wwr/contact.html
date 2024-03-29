@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact with us</title>
+    <meta name="description" content="Form to ask you about your information, We want to help you.">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
@@ -13,32 +14,60 @@
             <a href="site-plan-rafting.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
-            <a href="contact">Contact Us</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/homepage-video-poster.jpg" alt="People living the real adventure">
-            <h1>RAFTING | THE REAL ADVENTURE</h1>
-            <article>
-                <img src="images/american-river-rafting.jpg" alt="happy people rafting">
-                <p>We need to give you joy and freedom. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Optio ducimus sit harum cumque a, doloribus aperiam sint qui eius, corrupti perferendis.
-                     Necessitatibus, at quibusdam iure praesentium magnam reiciendis asperiores ipsam!</p>
-            </article>
+        <h1>RAFTING | THE REAL ADVENTURE</h1>
+        <h2>CONTACT US</h2>
+        <p>Address</p>
+        <p>Phone: +51 933-104-576</p>
+        <p>Email: <a href="mailto:raftingadventure@gmail.com">Rafting|The Real Adventure</a></p>
+        <p>Our address</p>
+        <div class="map">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.615012888572!2d-76.9494788998743!3d-12.069988343098307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ef6b787c51%3A0xdb4dfb638e48fae3!2sTemplo%20de%20Lima%20Per%C3%BA!5e0!3m2!1ses-419!2spe!4v1711736853082!5m2!1ses-419!2spe" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <section>
-            <h2>HISTORY</h2>
-            <p>Ago long time we were ... </p>
-        </section>
-        <section>
-            <h2>ADVENTURE AWAITS FOR YOU</h2>
-            <img src="images/water/one.jpg" alt="happy people in peace">
-            <img src="images/water/two.jpg" alt="a lot of happy people">
-            <img src="images/water/three.jpg" alt="enjoy the adventure">
-            <img src="images/water/four.png" alt="enjoy the ride">
-            <img src="images/water/five.jpeg" alt="give me your hand">
-        </section>
+        <h2>OUR OUR COLLABORATORSS</h2>
+        <img src="images/employees/ALEX HAPPY.jpg">
+        <p>Alexander Pacherrez</p>
+        <img src="images/employees/MONICA HAPPY.jpg">
+        <p>Monica Garnica</p>
+
+        <form>
+            <caption>¡CONTACT WITH US!</caption>
+            <fieldset>
+                <legend>Contact Information</legend>
+            <div class="form-item column6">
+                <label for="q1">Full Name:</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item column6">
+                <label for="useremail">User Email:</label>
+                <input type="text" id="useremail" name="useremail">
+            </div>
+            </fieldset>
+
+            <fieldset>
+            <legend>Choose the reason why you want to contact us:</legend>
+            <input type="radio" id="General Inquiry" name="option" value="General Inquiry">
+            <label for="General Inquiry">General Inquiry</label><br>
+            <input type="radio" id="Reservation Question" name="option" value="Reservation Question">
+            <label for="Reservation Question">Reservation Question</label><br>
+            <input type="radio" id="Website Suggestion" name="option" value="Website Suggestio">
+            <label for="Website Suggestio">Website Suggestion</label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>Type your request:</legend>
+            <label for="feedback">Type here:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="60" placeholder="Lima,Piura, Chiclayo, Pucallpa"></textarea>
+            </div>
+            </fieldset>
+        <button type="submit" onclick="alert('¡we will contact you in a few minutes!')">Submit Poll</button>
+
+        
+        </form>
     </main>
     <footer>
         <p>©2024 🌴 Rafting Site Document 🌴 </p>
