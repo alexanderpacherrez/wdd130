@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact with us</title>
+    <title>Contact us</title>
     <meta name="description" content="Form to ask you about your information, We want to help you.">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -35,7 +35,8 @@
         <p>Monica Garnica</p>
 
         <form>
-            <caption>¡CONTACT WITH US!</caption>
+            <caption>Send Us a Message!</caption>
+            <p>We'll respond within 4 hours.</p>
             <fieldset>
                 <legend>Contact Information</legend>
             <div class="form-item column6">
@@ -60,13 +61,21 @@
 
             <fieldset>
             <legend>Type your request:</legend>
-            <label for="feedback">Type here:</label>
-            <textarea id="feedback" name="feedback" rows="5" cols="60" placeholder="Lima,Piura, Chiclayo, Pucallpa"></textarea>
+            <label for="request"></label>
+            <textarea id="requestk" name="request" rows="5" cols="60" requestt="Type here"></textarea>
             </div>
             </fieldset>
-        <button type="submit" onclick="alert('¡we will contact you in a few minutes!')">Submit Poll</button>
-
         
+            <fieldset>
+            <legend>Please subscribe me to the monthly newsletter:</legend>
+                <div class="form-item column8">
+                    <input type="checkbox" id="yes" name="yes" value="YES">
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" id="no" name="no" value="NO">
+                    <label for="no">No</label>
+                </div>
+            </fieldset>
+            <button type="submit" onclick="alert('¡we will contact you in a few minutes!')">Submit Quiz</button>
         </form>
     </main>
     <footer>
