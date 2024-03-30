@@ -6,10 +6,10 @@ body {
 }
 
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #E54024;
-    --accent1-color: #1D2C48;
-    --accent2-color: #972E25;
+    --primary-color:#a21609;
+    --secondary-color: #1D2C48;
+    --third-color: rgb(109, 146, 213);
+    --fourth-color: #2B2235;
     --heading-font: '___', lato;
     --paragraph-font:'___',lato;
 
