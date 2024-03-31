@@ -1,5 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+:root {
+    --primary-color:green;
+    --secondary-color:blue;
+    --third-color:rgb(27, 178, 163);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--secondary-color);
+    background: #d3d2e3;
+}
 
 h1 {
+    margin: 1rem;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+fieldset {
+    /* display: grid; */
+    grid-gap: .9em;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+legend  {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.2em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+input {
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+textarea {
+    padding: .5rem;
+    align-items: center;
+
+}
+
+
+button {
+    margin: 1rem;
+    background-color: var(--third-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgba(10, 243, 173, 0.673);
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 500px;
+    text-align: center;
+    font-size: 0.8;
+    color: rgb(0, 0, 0);
 }
