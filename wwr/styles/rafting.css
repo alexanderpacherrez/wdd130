@@ -13,9 +13,8 @@
 }
 
 .hero img {
-    display: block;
     width: 100%;
-    height: auto;
+    height: 200x;
     margin: 15px;
 }
 
@@ -23,7 +22,6 @@
     font-size: 30px;
     color: var(--secondary-color);
     text-align: center;
-    font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
     margin: 20px;
@@ -56,9 +54,62 @@
     color: var(--secondary-color);padding: 10px;
 }
 
+/* ABOUT.HTML SECTION CLASS="PART2" */
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+    background: var(--secondary-color);
+    
+}
+
+.part2 img {
+    width: 30%;
+}
+.part2 p {
+    margin: 100px;
+    color: var(--secondary-color);
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ABOUT.HTML SECTION CLASS="PART3" */
+
+.part3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:var(--secondary-color);
+    height: 180px;
+}
+
 section h2 {
     color: var(--primary-color);
     font-size: 40px;
+    text-align: center;
+}
+
+.part3 img {
+    width: 200px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+    padding: 50x;
+    max-width: 220px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+/* section h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    text-align: center;
 }
 
 section p {
@@ -68,7 +119,7 @@ section p {
 
 section img {
     width: 1000px;
-}
+} */
 
 main img {
     display: grid;
@@ -79,7 +130,7 @@ main img {
 header {
     display: flex;
     justify-content: space-around;
-    background-color: var(--third-color);
+    background-color: var(--secondary-color);
     flex-wrap: wrap;
     align-items: center;
     padding: 5px;
@@ -102,7 +153,7 @@ h1 {
 
 .container {
     display: flex;
-    background: var(--third-color);
+    background: var(--secondary-color);
     justify-content: space-around;
     border-color: #972E25;
     padding: 1px;
@@ -124,7 +175,7 @@ h1 {
 
 h3 {
     font-size: 40px;
-    color:  var(--fourth-color);
+    color:  var(--primary-color);
     font-size: 40px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -133,7 +184,7 @@ h3 {
 .employees {
     display: flex;
     justify-content: space-around;
-    background-color: var(--third-color);
+    background: var(--secondary-color);
     padding: 50px;
     margin: 10px; 
     
@@ -160,7 +211,7 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: #eee;
     display: grid;
-    background-color: var(--third-color);
+    background: var(--secondary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -203,7 +254,7 @@ button {
 .links {
     margin: 25px;
     padding: 5px;
-    background-color: #1D2C48;
+    background-color: var(--secondary-color);
     color: white;
     text-align: center;
 }
@@ -220,7 +271,6 @@ footer nav a img{
     margin: 5px;
     width: 40px;
     text-align:  center;
-    
 }
 
 a {
