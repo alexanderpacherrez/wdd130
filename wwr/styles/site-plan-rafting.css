@@ -1,36 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-a {
-    color: white;
-    text-decoration: none;
-}
+
 
 :root {
     --primary-color:#a21609;
-    --secondary-color: #1D2C48;
+    --secondary-color: hsl(219, 34%, 44%);
     --third-color: rgb(109, 146, 213);
     --fourth-color: #2B2235;
-    --heading-font: '___', lato;
-    --paragraph-font:'___',lato;
-
-
-    --nav-background-color: #435065;
-    --nav-link-color: #E54024;
-    --nav-hover-link-color: #E54024;
-    --nav-hover-background-color: #4547a8;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color)
-}
-
-header  {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-
-p {
-    padding: 25px;
 }
 
 .links {
@@ -48,7 +23,7 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-footer nav a img {
+footer nav a img{
     display: inline-block;
     margin: 5px;
     width: 40px;

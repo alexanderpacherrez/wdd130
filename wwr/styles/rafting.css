@@ -254,6 +254,8 @@ button {
 
 }
 
+/*----FOOTER------*/
+
 .links {
     margin: 25px;
     padding: 5px;
@@ -380,6 +382,7 @@ th {
     color: var(--primary-color)
 }
 
+/* -----INDEX----*/
 
 
 
