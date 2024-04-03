@@ -19,7 +19,7 @@
 }
 
 .hero h1{
-    font-size: 30px;
+    font-size: 60px;
     color: var(--secondary-color);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -147,8 +147,10 @@ header {
 h1 {
     color: var(--secondary-color);
     text-align: center;
+    background-color: #d9cbe26b;
     font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .container {
@@ -281,5 +283,25 @@ a {
 nav a {
     align-items: center;
     padding-right: 50px;
+}
+
+/* --------------------------------*/
+
+.calling {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.calling img {
+    width: 1000px;
+}
+
+.calling button {
+    font-size: 60px;
+    position: absolute;
+    width: 500px;
+    align-self: center;
 }
 
