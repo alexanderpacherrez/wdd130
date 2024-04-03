@@ -2,7 +2,7 @@
 
 :root {
     --primary-color:#a21609;
-    --secondary-color: #1D2C48;
+    --secondary-color: hsl(219, 34%, 44%);
     --third-color: rgb(109, 146, 213);
     --fourth-color: #2B2235;
 
@@ -13,8 +13,7 @@
 }
 
 .hero img {
-    width: 100%;
-    height: 200px;
+    width: 1500px;
     margin: 15px;
 }
 
@@ -84,15 +83,18 @@
     height: 180px;
 }
 
+.part3 img {
+    position: relative;
+    width: 150px;
+}
+
+
 section h2 {
     color: var(--primary-color);
     font-size: 40px;
     text-align: center;
 }
 
-.part3 img {
-    width: 200px;
-}
 
 figure {
     display: flex;
@@ -103,7 +105,7 @@ figure {
     max-width: 220px;
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+}
 
 
 /* section h2 {
@@ -242,7 +244,7 @@ legend  {
 
 button {
     margin: 1rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: .5rem;

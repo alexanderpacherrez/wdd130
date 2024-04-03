@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-body {
-    font-family: var(--paragrapf-font);
-    max-width: 960 px;
-    padding: 20px;
+a {
+    color: white;
+    text-decoration: none;
 }
 
 :root {
@@ -34,24 +33,34 @@ p {
     padding: 25px;
 }
 
-nav {background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+.links {
+    margin: 25px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+
+.links p {
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer nav a img {
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    text-align:  center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+    align-items: center;
+    padding-right: 50px;
 }
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color)
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
