@@ -126,7 +126,7 @@ main img {
     width: 500px;
 }
 
-/* --------------------------------*/
+/* --------------CONTACT------------------*/
 header {
     display: flex;
     justify-content: space-around;
@@ -285,7 +285,7 @@ nav a {
     padding-right: 50px;
 }
 
-/* --------------------------------*/
+/* ---------------TRIPS-----------------*/
 
 .calling {
     display: flex;
@@ -307,10 +307,33 @@ nav a {
 
 .calling nav a {
     color: var(--secondary-color);
-    font-size: 80px;
-    text-align: center;
+    font-size: 90px;
+    align-self: center;
     padding: 5px;
     
     
 }
 
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+article img {
+    width: 300px;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+article p {
+    font-size: 18px;
+    text-align: center;
+    color: var(--secondary-color);
+}
