@@ -299,9 +299,18 @@ nav a {
 }
 
 .calling button {
-    font-size: 60px;
     position: absolute;
-    width: 500px;
+    background-color: #d9cbe26b;
     align-self: center;
+    
+}
+
+.calling nav a {
+    color: var(--secondary-color);
+    font-size: 80px;
+    text-align: center;
+    padding: 5px;
+    
+    
 }
 
