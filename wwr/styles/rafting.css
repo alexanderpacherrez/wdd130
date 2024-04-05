@@ -17,13 +17,13 @@ header {
     margin: 1px;
 }
 
-.logo {
+.logos {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.logo img {
+.logos img {
     width: 100px;
     margin: 10px;
 }
