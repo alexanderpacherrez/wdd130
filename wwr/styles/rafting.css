@@ -6,6 +6,48 @@
     --fourth-color: #2B2235;
 
 }
+/*--HEADER--*/
+header {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color);
+    width: 100%;
+    margin: 1px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    margin: 10px;
+}
+
+.navigation {
+	display: flex;
+    justify-content: center;
+	list-style: none;
+    font-size: 20px;
+    width: 1000px;
+}
+
+.navigation a {
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+    border: 0.1px solid white;
+}
+
+.navigation a:hover {
+	color: var(--primary-color);
+	text-decoration: underline;
+}
+
 
 /*--ABOUT US PAGE--*/
 .hero {
@@ -40,13 +82,12 @@
 }
 
 /* ABOUT.HTML SECTION ONE - "PART2" */
-
 h2 {
     color: var(--primary-color);
     font-size: 40px;
     text-align: center;
 }
-.section-one {
+.section-two {
     display: flex;
     flex-direction: column;
     margin: 50px;
@@ -100,23 +141,6 @@ figure {
 }
 
 /*--CONTACT US PAGE--*/
-header {
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--secondary-color);
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 5px;
-    margin: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-
-.logo img {
-    width: 100px;
-    align-items: center;
-}
-
 h1 {
     color: var(--secondary-color);
     text-align: center;
@@ -183,7 +207,6 @@ h3 {
     width: 435px;
 }
 
-
 form {
     width: 70%;
     margin: 0 auto;
@@ -230,28 +253,7 @@ button {
 
 }
 
-/*----FOOTER------*/
-.links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    background: var(--secondary-color);    
-}
-
-.rafting {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
-
-.pictures img {
-    width: 40px;
-}
-
-/* ---------------TRIPS-----------------*/
-
+/*--TRIPS PAGE--*/
 .calling {
     display: flex;
     flex-direction: row;
@@ -275,8 +277,6 @@ button {
     font-size: 90px;
     align-self: center;
     padding: 5px;
-    
-    
 }
 
 .pictures {
@@ -348,3 +348,22 @@ th {
 
 
 
+/*----FOOTER------*/
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background: var(--secondary-color);    
+}
+
+.rafting {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pictures img {
+    width: 40px;
+}
