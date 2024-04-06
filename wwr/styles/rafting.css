@@ -1,11 +1,11 @@
 
 :root {
-    --primary-color:#a21609;
-    --secondary-color: hsl(219, 34%, 44%);
+    --primary-color:#d11a09;
+    --secondary-color: hsl(220, 37%, 66%);
     --third-color: rgb(109, 146, 213);
     --fourth-color: #2B2235;
-
 }
+
 /*--HEADER--*/
 header {
 	display: grid;
@@ -167,6 +167,12 @@ h1 {
 }
 
 .info {
+    font-size: 40px;
+    color:  white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info a {
     font-size: 40px;
     color:  white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -346,7 +352,10 @@ th {
 }
 
 /* -----INDEX----*/
-
+main imgI {
+    width:1000px;
+    padding: 20px;
+}
 
 
 /*----FOOTER------*/
