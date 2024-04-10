@@ -443,8 +443,21 @@ th {
     flex-direction: row;
     justify-content: space-around;
     margin: 30px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+.purpose-one {
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
 }
 
+.purpose img {
+    width: 405px;
+}
 .offers {
     display: flex;
     margin: 30px;
@@ -452,10 +465,16 @@ th {
     justify-content: space-around;
     align-items: flex-start;
     margin: 30px;
+    background-color: var(--secondary-color);
+    color: white;
 }
 
-.purpose img {
-    width: 405px;
+.offers-one {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .offers img {
