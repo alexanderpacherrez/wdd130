@@ -396,7 +396,7 @@ th {
     position: absolute;
     top: 40px;
     align-self: center;
-    color: var(--fourth-color);
+    color: var(--secondary-color);
 }
 
 .forms {
