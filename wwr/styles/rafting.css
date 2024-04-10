@@ -392,11 +392,11 @@ th {
 }
 
 .home h1 {
-    
-    width: 400px;
-    font-size: 40px;
+    font-size: 75px;
     position: absolute;
+    top: 40px;
     align-self: center;
+    color: var(--fourth-color);
 }
 
 .forms {
