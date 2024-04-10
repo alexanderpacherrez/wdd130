@@ -221,6 +221,7 @@ form {
     display: grid;
     background: var(--secondary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .introo {
@@ -238,6 +239,7 @@ fieldset {
     color: #ffffff;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 legend  {
@@ -245,6 +247,7 @@ legend  {
     font-size: 25px;
     color: var(--primary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 button {
@@ -400,3 +403,20 @@ th {
     width:400px;
     padding: 20px;
 }
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    color: var(--fourth-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.forms input {
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
