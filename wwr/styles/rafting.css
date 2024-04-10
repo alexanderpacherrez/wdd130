@@ -374,9 +374,26 @@ th {
 }
 
 /* -----INDEX----*/
+.home {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
 .home img {
-    width:400px;
+    width: 1400px;
     padding: 20px;
+    position: relative;
+}
+
+.home h1 {
+    
+    width: 400px;
+    font-size: 40px;
+    position: absolute;
+    align-self: center;
 }
 
 .calling-trip img {
