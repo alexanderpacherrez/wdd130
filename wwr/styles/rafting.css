@@ -263,29 +263,28 @@ button {
 }
 
 /*--TRIPS PAGE--*/
+
 .calling {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin: 20px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .calling img {
-    width: 1000px;
+    width: 1400px;
+    position: relative;
 }
 
-.calling button {
+.calling nav {
     position: absolute;
-    background-color: #d9cbe26b;
-    align-self: center;
-    
+    font-size: 100px;
 }
 
-.calling nav a {
-    color: var(--secondary-color);
-    font-size: 90px;
-    align-self: center;
-    padding: 5px;
+.calling a {
+    color: white;
 }
 
 .pictures {
@@ -428,7 +427,6 @@ th {
 .calling-trip img {
     width: 1400px;
     position: relative;
-
 }
 
 .calling-trip nav {
