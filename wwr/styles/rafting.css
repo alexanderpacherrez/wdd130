@@ -386,7 +386,7 @@ th {
 }
 
 .home img {
-    width: 1500px;
+    width: 100%;
     padding: 20px;
     position: relative;
 }
