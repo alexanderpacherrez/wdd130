@@ -81,7 +81,7 @@ header {
     color: var(--secondary-color);padding: 10px;
 }
 
-/* ABOUT.HTML SECTION ONE - "PART2" */
+/* ABOUT US.HTML SECTION ONE - "PART2" */
 h2 {
     color: var(--primary-color);
     font-size: 40px;
@@ -114,7 +114,7 @@ h2 {
     color: var(--secondary-color);padding: 10px;
 }
 
-/* ABOUT.HTML SECTION THREE - "PART3" */
+/* ABOUT US.HTML SECTION THREE - "PART3" */
 .section-three {
     display: flex;
     flex-direction: column
@@ -290,15 +290,14 @@ button {
 .pictures {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: space-around;
+    align-items: center;
 }
 
 article img {
     width: 300px;
-    margin: 20px;
+    margin: 10px;
 }
-
 
 h4 {
     font-size: 20px;
@@ -306,22 +305,24 @@ h4 {
     color: var(--primary-color);
 }
 
-article p {
+.pictures p {
     font-size: 18px;
     align-content: center;
     color: var(--secondary-color);
 }
 
-article button {
-    background-color: #e2ea0afe;
-    align-content: center;
-    margin-left: 130px;
+.pictures nav {
+    margin-top: 20px;
+    text-align: center;
 }
 
-article nav a {
+.pictures a {
+    align-self: center;
     color: var(--secondary-color);
-    font-size: 20px;
+    background-color: yellow;
+    font-size: 25px;
     padding: 5px;
+    color: var(--fourth-color);
 }
 
 table {
@@ -330,7 +331,7 @@ table {
     font-family: sans-serif;
     font-size: 25px;
     letter-spacing: 1px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 caption {
